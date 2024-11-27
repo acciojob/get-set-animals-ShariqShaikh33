@@ -12,16 +12,18 @@ class Animal {
 }
 
 class Dog extends Animal {
-	purr(){
-		console.log("purr");
-	}
-}
-
-class Cat extends Animal {
 	bark(){
 		console.log("woof");
 	}
 }
+
+class Cat extends Animal {
+	purr(){
+		console.log("purr");
+	}
+	
+}
+
 
 // Do not change the code below this line
 window.Animal = Animal;
